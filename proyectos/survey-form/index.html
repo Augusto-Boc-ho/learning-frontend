@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Proyect-1</title>
+</head>
+<body>
+    <h1 id="title">Tell us about you</h1>
+    <p id="description">
+        Let us know how we can improve your business
+    </p>
+    <form id="survey-form">
+        <!--Name-->
+        <label for="name-label" id="name-label">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <!--email-->
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <!--age-->
+        <label for="age" id="number-label">Age:</label>
+        <input type="number" id="number" name="age"   min="18" max="100" placeholder="Enter your age" required>
+        <!--Role dropdown-->
+        <label for="dropdown">Role:</label>  
+        <select id="dropdown" name="role">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="developer">Developer</option>
+            <option value="developer-freelance">Freelance developer</option>
+            <option value="other">Other</option>
+        </select>
+        <!--Radio buttons for recomandation-->
+        <label for="recommend">Would you recommend us?</label>
+        <input type="radio" id="recommend" name="recommend" value="yes" class="inline" checked>Yes
+        <input type="radio" id="recommend" name="recommend" 
+        value="no" class="inline">No
+        <label for="improve">What should we improve?</label>
+        <textarea id="improve" name="improve"></textarea>
+        <!--Checkboxes for terms and conditions-->
+        <label for="terms">Terms and conditions:</label>
+        <input type="checkbox" id="terms" name="terms" value="agree" class="inline" required>Agree
+        <input type="checkbox" id="terms" name="terms" value="disagree" class="inline" required>Disagree
+        <!--Submit buton-->
+        <input type="submit" value="Submit" id="submit"/>
+    </form>
+</body>
+</html>
