@@ -22,4 +22,12 @@ Finally, you'll learn how to make webpages that respond to different screen size
 
   In this course, you'll learn HTML forms by building a signup page. You'll learn how to control what types of data people can type into your form, and some new CSS tools for styling your page.
 
-- Activity 5
+- Activity 4
+  Proyect 1 - form
+
+- Activity 6
+  Learn CSS Box Model by building a rothko painting
+
+  Every HTML element is its own box – with its own spacing and a border. This is called the Box Model.
+
+  In this course, you'll use CSS and the Box Model to create your own Rothko-style rectangular art pieces.
